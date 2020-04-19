@@ -15,24 +15,29 @@
     "@types/react-native": "^0.62.1",
     "@types/react-native-video": "^5.0.1",
     "date-fns": "^2.11.1",
-    "tslib": "^1.11.1"
+    "oauth-signature": "^1.5.0",
+    "typescript": "3.8.3"
   },
   "devDependencies": {},
   "peerDependencies": {
-    "react-native": "*",
-    "react": "*"
+    "react": "*",
+    "react-native": "*"
   },
   "bugs": {
     "url": "https://github.com/PierreCapo/react-native-socials/issues"
   },
   "homepage": "https://github.com/PierreCapo/react-native-socials#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "yarn tsc -p tsconfig.json && npm publish",
+    "start": "cd example && yarn start"
   },
   "keywords": [
     "react-native",
     "socials",
     "twitter",
-    "instagram"
+    "instagram",
+    "youtube",
+    "reddit"
   ]
 }

@@ -10,7 +10,7 @@
 
 import React from 'react';
 import {SafeAreaView, ScrollView, StatusBar} from 'react-native';
-import {Instagram} from 'react-native-socials';
+import {Instagram, Twitter} from 'react-native-socials';
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
       <SafeAreaView>
         <ScrollView contentInsetAdjustmentBehavior="automatic">
           <Instagram id={'B-b6f7_gooQ'} />
+          <Twitter />
         </ScrollView>
       </SafeAreaView>
     </>
